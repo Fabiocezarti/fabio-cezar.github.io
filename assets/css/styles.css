@@ -23,7 +23,7 @@
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 30%, 77%);
 
-    /*========== Font and typography ==========*/
+    /*========== Fonte e Tipografia ==========*/
     --body-font: 'Poppins', sans-serif;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
@@ -35,7 +35,7 @@
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
 
-    /*========== Fonte weight ==========*/
+    /*========== Tamanho da Fonte ==========*/
     --font-medium: 500;
     --font-semi-bold: 600;
 
@@ -98,8 +98,6 @@ body.dark-theme {
 .change-theme:hover {
   color: var(--first-color);
 }
-
-
 
 /*==================== BASE ====================*/
 * {
@@ -569,7 +567,7 @@ img {
   transform: rotate(-180deg);
 }
 
-/*==================== QUALIFICATION ====================*/
+/*==================== QUALIFICAÇÕES ====================*/
 .qualification__tabs {
   display: flex;
   justify-content: space-evenly;
@@ -641,7 +639,7 @@ img {
   color: var(--first-color);
 }
 
-/*==================== SERVICES ====================*/
+/*==================== SERVIÇOS ====================*/
 .services__container {
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
@@ -807,7 +805,7 @@ img {
   outline: none;
 }
 
-/*==================== PROJECT IN MIND ====================*/
+/*==================== PROJETO EM MENTE ====================*/
 .project {
   text-align: center
 }
@@ -1021,7 +1019,7 @@ img {
 }
 
 /*==================== MEDIA QUERIES ====================*/
-/* For small devices */
+/* Para dispositivos menores */
 @media screen and (max-width: 350px) {
   .container {
     margin-left: var(--mb-1);
@@ -1084,7 +1082,7 @@ img {
 }
 
 
-/* For medium devices */
+/* Para dispositivos médios */
 @media screen and (min-width: 568px) {
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
@@ -1261,7 +1259,7 @@ img {
   }
 }
 
-/* For large devices */
+/* Para dispositivos grandes */
 @media screen and (min-width: 1024px) {
   .header,
   .footer,
